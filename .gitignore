@@ -1,0 +1,8 @@
+# Ignoriere PHP-Logs
+*.log
+
+# Ignoriere Umgebungsvariablen
+.env
+
+# Ignoriere Node-Module, falls du Node.js verwendest
+node_modules/
