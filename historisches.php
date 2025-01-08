@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
     <meta charset="utf-8">
-    <meta name="author" content="Vincent Kreße">
+    <meta name="author" content="Johannes Bokelmann">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Wallburg Baukau - Historische Nachstellung von Leben um 1360 mit einer 5-köpfigen Familie und Freunden, inklusive Feuerspielen und Mittelalteraktivitäten.">
     

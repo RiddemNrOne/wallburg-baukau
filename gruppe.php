@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Wallburg Baukau: Das sind wir</title>
-    <meta name="author" content="Vincent Kreße">
+    <meta name="author" content="Johannes Bokelmann">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="ico64.ico" rel="shortcut icon" type="image/x-icon">
     <link href="wb.png" rel="icon" sizes="482x631" type="image/png">
