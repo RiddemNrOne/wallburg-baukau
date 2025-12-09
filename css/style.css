@@ -80,6 +80,12 @@ h1 {
     display: none !important;
 }
 
+/*--------------------------- STYLING DER INDEX SEITE --------------*/
+
+.index-logo{
+    
+}
+
 
 /*--------------------------- STYLING DES FOOTERS SEITE --------------*/
 
@@ -124,8 +130,7 @@ h1 {
     position: relative;
     display: flex;
     align-items: center;
-    background: url('/images/hero_wallburg.jpg') center/cover no-repeat;
-    color: #ffffff;
+    color: #F4DAA7;
 }
 
 /* Dunkler, subtiler Overlay */
@@ -133,7 +138,6 @@ h1 {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.65); /* etwas dunkler als vorher */
     z-index: 1;
 }
 

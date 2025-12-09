@@ -1,5 +1,5 @@
 <footer class="footer bg-dark text-white text-center py-3 mt-auto">
-    <div class="container">
+    <div class="bg-dark">
         <p class="mb-2">© 2025 Wallburg Baukau – Alle Rechte vorbehalten.</p>
 
         <!-- Social Media Icons -->
