@@ -1,0 +1,162 @@
+/* Body als Flexbox-Container */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* body nimmt immer volle Höhe ein */
+    margin: 0;
+}
+
+/* Hauptcontent dehnen */
+main {
+    flex: 1; /* wächst, füllt den restlichen Platz aus */
+}
+
+
+h1 {
+    text-align: center;
+}
+
+.feuer-spielzeug {
+    padding-bottom: 5rem;
+}
+
+.door-wrapper {
+    display: flex;
+    justify-content: center;
+    perspective: 1500px;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+}
+
+.door {
+    width: 50vw;
+    height: 100vh;
+    transform-style: preserve-3d;
+}
+
+.left-door, .right-door {
+    transition: transform 2.5s ease-in-out;
+}
+
+.left-door {
+    transform-origin: left center;
+}
+
+.right-door {
+    transform-origin: right center;
+}
+
+.left-door.open {
+    transform: rotateY(-90deg);
+}
+
+.right-door.open {
+    transform: rotateY(90deg);
+}
+
+.door img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Inhalt erst später einblenden */
+#main-content {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+#main-content.show {
+    opacity: 1;
+}
+
+/* d-none utility */
+.d-none {
+    display: none !important;
+}
+
+
+/*--------------------------- STYLING DES FOOTERS SEITE --------------*/
+
+/* Footer normal */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    height: 4vh;
+}
+
+
+/*--------------------------- STYLING DER FEUER SEITE --------------*/
+
+.equipment-img {
+    width: 47.125rem;       /* 50px */
+    height: 15.125rem;      /* 50px */
+    object-fit: cover;
+    border-radius: 0.375rem; /* 6px */
+    overflow: hidden;
+}
+
+/*--------------------------- STYLING DER SOCIAL MEDIA SEITE --------------*/
+
+
+.social-icons a {
+  font-size: 1.4rem;
+  opacity: 0.8;
+  transition: opacity .2s ease, transform .2s ease;
+}
+
+.social-icons a:hover {
+  opacity: 1;
+  transform: translateY(-2px);
+}
+
+/*--------------------------- STYLING DER HERO SECTION SEITE --------------*/
+
+.hero-section {
+    height: 80vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: url('/images/hero_wallburg.jpg') center/cover no-repeat;
+    color: #ffffff;
+}
+
+/* Dunkler, subtiler Overlay */
+.hero-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.65); /* etwas dunkler als vorher */
+    z-index: 1;
+}
+
+/* Container über Overlay legen */
+.hero-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+/* Logo */
+.hero-logo {
+    height: 140px;
+    margin-bottom: 1rem;
+}
+
+/* Buttons */
+.hero-section .btn {
+    min-width: 220px;
+    margin: 0.25rem;
+}
+
+@media (max-width: 576px) {
+    .hero-section .btn {
+        width: 100%;
+    }
+}
