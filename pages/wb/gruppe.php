@@ -10,17 +10,17 @@
         <!-- Kopfbereich -->
         <div class="row align-items-start mb-5">
             <div class="col-md-5 mb-4 mb-md-0">
-                <img src="/images/herzogpaar.jpg"
+                <!--<img src="/images/people/herzogpaar.jpeg"
                      alt="Herzogpaar und Gefolge"
-                     class="img-fluid rounded shadow">
+                     class="img-fluid rounded shadow">-->
             </div>
 
-            <div class="col-md-7">
-                <p class="lead">
+            <div class="col-md-12">
+                <p class="lead text-center">
                     Wir sind ein historisch inspiriertes Lager, das mittelalterliches Leben,
                     Handwerk und Gemeinschaft lebendig werden lässt.
                 </p>
-                <p>
+                <p class="text-center">
                     In unserem Lager treffen Darstellung, Alltag und Feuerkunst aufeinander –
                     getragen von Zusammenhalt, Leidenschaft und Respekt vor der Geschichte.
                 </p>
@@ -39,8 +39,8 @@
             <div class="row g-4">
                 <!-- Herzog -->
                 <div class="col-12 col-sm-6">
-                    <div class="person-card">
-                        <img src="/images/group/2024_ralf_work.jpg" class="portrait gold">
+                    <div class="person-card fade-in">
+                        <img src="/images/people/herzog.jpeg" class="portrait gold">
                         <div>
                             <strong>Herzog</strong><br>
                             <span class="role">Lagerleitung</span>
@@ -50,8 +50,8 @@
 
                 <!-- Herzogin -->
                 <div class="col-12 col-sm-6">
-                    <div class="person-card">
-                        <img src="/images/people/herzogin.jpg" class="portrait gold">
+                    <div class="person-card fade-in">
+                        <img src="/images/people/herzogin.jpeg" class="portrait gold">
                         <div>
                             <strong>Herzogin</strong><br>
                             <span class="role">Herrin des Lagers</span>
@@ -61,7 +61,7 @@
 
                 <!-- Kurfürst -->
                 <div class="col-12 col-sm-6">
-                    <div class="person-card">
+                    <div class="person-card fade-in">
                         <img src="/images/people/kurfuerst.jpg" class="portrait silver">
                         <div>
                             <strong>Kurfürst</strong><br>
@@ -72,7 +72,7 @@
 
                 <!-- Kurfürstin -->
                 <div class="col-12 col-sm-6">
-                    <div class="person-card">
+                    <div class="person-card fade-in">
                         <img src="/images/people/kurfuerstin.jpg" class="portrait silver thin">
                         <div>
                             <strong>Kurfürstin</strong><br>
@@ -83,7 +83,7 @@
 
                 <!-- Graf -->
                 <div class="col-12 col-sm-6">
-                    <div class="person-card">
+                    <div class="person-card fade-in">
                         <img src="/images/people/graf.jpg" class="portrait silver">
                         <div>
                             <strong>Graf</strong><br>
@@ -94,7 +94,7 @@
 
                 <!-- Gräfin -->
                 <div class="col-12 col-sm-6">
-                    <div class="person-card">
+                    <div class="person-card fade-in">
                         <img src="/images/people/graefin.jpg" class="portrait silver thin">
                         <div>
                             <strong>Gräfin</strong><br>
@@ -105,8 +105,8 @@
 
                 <!-- Grafenkinder -->
                 <div class="col-12 col-sm-6">
-                    <div class="person-card">
-                        <img src="/images/people/grafenkinder.jpg" class="portrait silver thin">
+                    <div class="person-card child fade-in">
+                        <img src="/images/people/grafenkinder.jpg" class="portrait silver thin small">
                         <div>
                             <strong>Grafenkinder</strong><br>
                             <span class="role">Nachwuchs des Hauses</span>
@@ -124,7 +124,7 @@
 
                 <!-- Truchsess -->
                 <div class="col-12 col-sm-6">
-                    <div class="person-card">
+                    <div class="person-card fade-in">
                         <img src="/images/people/truchsess.jpg" class="portrait wood">
                         <div>
                             <strong>Truchsess</strong><br>
@@ -135,7 +135,7 @@
 
                 <!-- Koch -->
                 <div class="col-12 col-sm-6">
-                    <div class="person-card">
+                    <div class="person-card fade-in">
                         <img src="/images/people/koch.jpg" class="portrait wood">
                         <div>
                             <strong>Koch</strong><br>
@@ -146,7 +146,7 @@
 
                 <!-- Oberzofe -->
                 <div class="col-12 col-sm-6">
-                    <div class="person-card">
+                    <div class="person-card fade-in">
                         <img src="/images/people/oberzofe.jpg" class="portrait wood">
                         <div>
                             <strong>Oberzofe</strong><br>
@@ -157,8 +157,8 @@
 
                 <!-- Oberzofen-Töchter (untergeordnet) -->
                 <div class="col-12 col-sm-6">
-                    <div class="person-card child">
-                        <img src="/images/people/oberzofen_toechter.jpg" class="portrait wood small">
+                    <div class="person-card child fade-in">
+                        <img src="/images/people/oberzofen_toechter.jpg" class="portrait wood thin small">
                         <div>
                             <strong>Töchter der Oberzofe</strong><br>
                             <span class="role">Unterstützung im Lageralltag</span>
@@ -168,7 +168,7 @@
 
                 <!-- Zofe -->
                 <div class="col-12 col-sm-6">
-                    <div class="person-card">
+                    <div class="person-card fade-in">
                         <img src="/images/people/zofe.jpg" class="portrait wood">
                         <div>
                             <strong>Zofe</strong><br>
@@ -179,8 +179,8 @@
 
                 <!-- Zofen-Tochter (untergeordnet) -->
                 <div class="col-12 col-sm-6">
-                    <div class="person-card child">
-                        <img src="/images/people/zofen_tochter.jpg" class="portrait wood small">
+                    <div class="person-card child fade-in">
+                        <img src="/images/people/zofen_tochter.jpg" class="portrait wood thin small">
                         <div>
                             <strong>Tochter der Zofe</strong><br>
                             <span class="role">Mithilfe im Lager</span>
@@ -190,7 +190,7 @@
 
                 <!-- Waffenmeister -->
                 <div class="col-12 col-sm-6">
-                    <div class="person-card">
+                    <div class="person-card fade-in">
                         <img src="/images/people/waffenmeister.jpg" class="portrait wood">
                         <div>
                             <strong>Waffenmeister</strong><br>
@@ -201,7 +201,7 @@
 
                 <!-- Söldner -->
                 <div class="col-12 col-sm-6">
-                    <div class="person-card">
+                    <div class="person-card fade-in">
                         <img src="/images/people/soeldner.jpg" class="portrait wood">
                         <div>
                             <strong>Söldner</strong><br>

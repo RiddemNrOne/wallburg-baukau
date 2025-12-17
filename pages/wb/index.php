@@ -44,7 +44,7 @@
 
             <!-- Historisch -->
             <div class="col-12 col-md-6 col-lg-4">
-                <a href="/wb/historisch" class="text-decoration-none">
+                <a href="/wb/historisches" class="text-decoration-none">
                     <div class="info-box h-100">
                         <div class="info-bg" style="background-image: url('/images/group/placeholder.jpg');"></div>
                         <div class="info-content">
@@ -92,7 +92,7 @@
 
             <!-- Wallburg in Flammen -->
             <div class="col-12 col-md-6 col-lg-4">
-                <a href="/wb/wallburg-in-flammen" class="text-decoration-none">
+                <a href="/wif/index" class="text-decoration-none">
                     <div class="info-box h-100">
                         <div class="info-bg" style="background-image: url('/images/group/placeholder.jpg');"></div>
                         <div class="info-content">
