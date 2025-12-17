@@ -277,6 +277,67 @@ h1 {
     box-shadow: 0 6px 16px rgba(0,0,0,0.15);
 }
 
+/*--------------------------- STYLING DER TERMIN SEITE --------------*/
+
+
+.termine-section {
+    background-color: transparent;
+}
+
+.termin-card {
+    background-color: rgba(255, 255, 255, 0.45);
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.termin-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 35px rgba(0,0,0,0.12);
+}
+
+.termin-img {
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+}
+
+.termin-content {
+    padding: 1.5rem;
+}
+
+.termin-content h4 {
+    margin-bottom: 0.75rem;
+}
+
+.termin-meta {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem 0;
+    font-size: 0.9rem;
+    color: #5c5c5c;
+}
+
+.termin-meta li {
+    margin-bottom: 0.25rem;
+}
+
+.termin-content p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.termin-link {
+    font-weight: 600;
+    color: #b04a1f;
+    text-decoration: none;
+}
+
+.termin-link:hover {
+    text-decoration: underline;
+}
+
 
 /*--------------------------- STYLING DER FEUER SEITE --------------*/
 
