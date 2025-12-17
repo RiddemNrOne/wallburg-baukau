@@ -244,6 +244,39 @@ h1 {
 }
 
 
+/*--------------------------- STYLING DER HISTORISCHES SEITE --------------*/
+
+.historisch-section {
+    background-color: transparent; /* nutzt deine Body-Farbe */
+}
+
+
+.historisch-card {
+    background-color: rgba(255, 255, 255, 0.55);
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow:
+        0 8px 20px rgba(0, 0, 0, 0.12),
+        inset 0 1px 0 rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(2px);
+}
+
+/* Text bleibt ruhig & gut lesbar */
+.historisch-text p {
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+.historisch-text .lead {
+    font-weight: 500;
+}
+
+.historisch-img {
+    border-radius: 16px;
+    border: 4px solid rgba(107, 79, 42, 0.25);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
 
 /*--------------------------- STYLING DER FEUER SEITE --------------*/
 
