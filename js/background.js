@@ -4,7 +4,7 @@
 
                 // Wenn der Pfad den /wif Ordner enthält
                 if (path.includes("/wif/")) {
-                    document.body.style.backgroundColor = "#FF5500"; // Rot/Orange Ton
+                    document.body.style.backgroundColor = "#E69A5A"; // Rot/Orange Ton
                 } else if (path.includes("/wb/")) {
                     document.body.style.backgroundColor = "#F4DAA7"; // Blau
                 } else {

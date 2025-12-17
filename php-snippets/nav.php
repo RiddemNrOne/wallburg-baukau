@@ -4,7 +4,7 @@
   <div class="container-fluid">
 
     <!-- Logo / Brand -->
-    <a class="navbar-brand d-flex align-items-center" href="/wb/index">
+    <a class="navbar-brand d-flex align-items-center" href="/">
       <img src="/images/wb_logo.png" alt="Wallburg Baukau" class="me-2" style="height: 40px;">
       Wallburg Baukau
     </a>
