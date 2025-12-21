@@ -24,5 +24,14 @@
             });
         </script>
 
+        <script>
+            document.querySelectorAll('.person-summary').forEach(card => {
+                card.addEventListener('click', () => {
+                    card.closest('.person-card').classList.toggle('active');
+                });
+            });
+        </script>
+
+
     </body>
 </html>

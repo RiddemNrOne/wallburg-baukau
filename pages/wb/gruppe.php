@@ -10,9 +10,6 @@
         <!-- Kopfbereich -->
         <div class="row align-items-start mb-5">
             <div class="col-md-5 mb-4 mb-md-0">
-                <!--<img src="/images/people/herzogpaar.jpeg"
-                     alt="Herzogpaar und Gefolge"
-                     class="img-fluid rounded shadow">-->
             </div>
 
             <div class="col-md-12">
@@ -39,14 +36,15 @@
             <div class="row g-4">
                 <!-- Herzog -->
                 <div class="col-12 col-sm-6">
-                    <div class="person-card fade-in">
-                        <img src="/images/people/herzog.jpeg" class="portrait gold">
-                        <div>
-                            <strong>Herzog</strong><br>
-                            <span class="role">Lagerleitung</span>
+                    <div class="person-card left fade-in">
+                            <img src="/images/people/herzog.jpeg" class="portrait gold">
+                            <div>
+                                <strong>Herzog</strong><br>
+                                <span class="role">Lagerleitung</span>
                         </div>
+
                     </div>
-                </div>
+                </div>                       
 
                 <!-- Herzogin -->
                 <div class="col-12 col-sm-6">
