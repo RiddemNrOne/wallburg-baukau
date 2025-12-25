@@ -517,6 +517,119 @@ h1 {
 }
 
 
+/*------------------STYLING VOM BUCH UND TEXT------------*/
+
+
+.book {
+    position: relative;
+    background: #f5efe3;
+    border-radius: 12px;
+    padding: 2.5rem 2rem 4rem; /* unten Platz für Buttons */
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    min-height: 33rem; /* sorgt für ruhige Grundhöhe */
+}
+
+.book::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background:
+        repeating-linear-gradient(
+            0deg,
+            rgba(0,0,0,0.02),
+            rgba(0,0,0,0.02) 1px,
+            rgba(255,255,255,0.03) 2px
+        );
+    pointer-events: none;
+}
+
+.book-page {
+    display: none;
+    animation: fadeIn 0.4s ease;
+}
+
+.book-page.active {
+    display: block;
+}
+
+.book p {
+    font-size: 1.05rem;
+    line-height: 1.75;
+    margin-bottom: 1.2rem;
+}
+
+.book-controls {
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 2rem;
+    pointer-events: auto;
+}
+
+.book-controls button {
+    background: #5a4010;
+    color: #f5e6b3;
+    border: none;
+    padding: 0.4rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: serif;
+}
+
+.book-controls button:hover {
+    background: #7a5a20;
+}
+
+#pageIndicator {
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(5px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInPage {
+    from {
+        opacity: 0;
+        transform: translateX(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+/* Mobile: normales Scrollen */
+@media (max-width: 768px) {
+    .book {
+        background: none;
+        box-shadow: none;
+        padding: 0;
+    }
+
+    .book-page {
+        display: block;
+        margin-bottom: 2rem;
+    }
+
+    .book-controls {
+        display: none;
+    }
+}
+
+
+
+
 
 
 /*--------------------------- STYLING DER HISTORISCHES SEITE --------------*/

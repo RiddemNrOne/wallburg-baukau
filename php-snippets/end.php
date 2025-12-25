@@ -36,5 +36,43 @@
         });
         </script>
 
+
+
+        <!--Buchseiten auf der Personenseite anzeigen lassen -->
+
+        <script>
+            const pages = document.querySelectorAll('.book-page');
+            const prevBtn = document.getElementById('prevPage');
+            const nextBtn = document.getElementById('nextPage');
+            const indicator = document.getElementById('pageIndicator');
+
+            let current = 0;
+
+            function updateBook() {
+                pages.forEach((p, i) => p.classList.toggle('active', i === current));
+                indicator.textContent = `Seite ${current + 1} / ${pages.length}`;
+                prevBtn.disabled = current === 0;
+                nextBtn.disabled = current === pages.length - 1;
+            }
+
+            prevBtn.addEventListener('click', () => {
+                if (current > 0) {
+                    current--;
+                    updateBook();
+                }
+            });
+
+            nextBtn.addEventListener('click', () => {
+                if (current < pages.length - 1) {
+                    current++;
+                    updateBook();
+                }
+            });
+
+            updateBook();
+        </script>
+
+
+
     </body>
 </html>
