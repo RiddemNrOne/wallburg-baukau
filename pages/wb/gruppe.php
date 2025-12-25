@@ -36,15 +36,15 @@
             <div class="row g-4">
                 <!-- Herzog -->
                 <div class="col-12 col-sm-6">
-                    <div class="person-card left fade-in">
-                            <img src="/images/people/herzog.jpeg" class="portrait gold">
-                            <div>
-                                <strong>Herzog</strong><br>
-                                <span class="role">Lagerleitung</span>
+                    <a href="/personen/herzog" class="person-card fade-in">
+                        <img src="/images/people/herzog.jpeg" class="portrait gold" alt="Herzog Ralf zu Baukau">
+                        <div>
+                            <strong>Herzog Ralf zu Baukau</strong><br>
+                            <span class="role">Lagerleitung</span>
                         </div>
-
-                    </div>
-                </div>                       
+                    </a>
+                </div>
+                       
 
                 <!-- Herzogin -->
                 <div class="col-12 col-sm-6">

@@ -23,15 +23,18 @@
                 });
             });
         </script>
-
+        <!-- Aufgaben anzeigen lassen-->
         <script>
-            document.querySelectorAll('.person-summary').forEach(card => {
-                card.addEventListener('click', () => {
-                    card.closest('.person-card').classList.toggle('active');
-                });
+        document.querySelectorAll('.task-card').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.querySelector('.task-menu').style.display = 'block';
             });
-        </script>
 
+            card.addEventListener('mouseleave', () => {
+                card.querySelector('.task-menu').style.display = 'none';
+            });
+        });
+        </script>
 
     </body>
 </html>
